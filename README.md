@@ -1,7 +1,8 @@
 # template-diw-20251-semana-02
 
 ## Informações Gerais
-- Nome: 
-- Matricula:
+- Nome: Pedro Martins Assunção de Oliveira
+- Matricula: 891807
 
-## Print da tela da página criad
+## Print da tela da página criada
+![Currículo](print.png)
