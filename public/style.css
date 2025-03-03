@@ -1,0 +1,123 @@
+/* Definição de variáveis CSS para cores principais */
+:root {
+    --primary-color: #1e3a5f; /* Azul escuro - cor primária */
+    --secondary-color: #f4f4f4; /* Cinza claro - cor secundária */
+    --text-color: #333; /* Cinza escuro - cor padrão para texto */
+    --white: #fff; /* Branco */
+}
+
+/* Estilização geral do corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    margin: 0; /* Remove margens externas */
+    padding: 0; /* Remove espaçamentos internos */
+    background-color: var(--secondary-color); /* Define o fundo como cinza claro */
+    color: var(--text-color); /* Define a cor do texto como cinza escuro */
+}
+
+/* Container principal do currículo */
+.container {
+    display: flex; /* Usa o modelo flexível para organizar os elementos */
+    max-width: 900px; /* Define uma largura máxima */
+    margin: 40px auto; /* Centraliza na tela com margem superior */
+    background-color: var(--white); /* Fundo branco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve para destacar */
+}
+
+/* Barra lateral do currículo */
+.sidebar {
+    width: 35%; /* Ocupa 35% da largura do container */
+    background-color: var(--primary-color); /* Fundo azul escuro */
+    color: var(--white); /* Texto branco */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilização da área do perfil */
+.profile {
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+/* Foto de perfil */
+.profile img {
+    width: 150px; /* Aumenta a largura */
+    height: 150px; /* Aumenta a altura */
+    border-radius: 5px; /* Deixa as bordas levemente arredondadas (opcional) */
+    object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+    border: 3px solid var(--white); /* Mantém a borda branca */
+}
+
+/* Nome do usuário */
+.profile h1 {
+    font-size: 22px; /* Tamanho da fonte */
+    margin-top: 10px; /* Espaço superior */
+    text-transform: normal; /* Texto em formato normal */
+}
+
+/* Subtítulo do perfil (parece não estar sendo usado) */
+.profile h2 {
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: -10px; /* Ajusta o posicionamento */
+    color: #d1d1d1; /* Cinza claro */
+}
+
+/* Descrição do perfil */
+.profile p {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 5px 0;
+}
+
+/* Seções da barra lateral */
+.section {
+    margin-top: 20px; /* Espaço entre as seções */
+}
+
+/* Estilização de títulos */
+h2 {
+    border-bottom: 2px solid var(--white); /* Linha abaixo do título */
+    padding-bottom: 5px; /* Espaço abaixo do texto */
+    font-size: 18px; /* Tamanho do texto */
+}
+
+/* Remove a formatação padrão das listas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilização dos itens das listas */
+ul li {
+    background-color: rgba(255, 255, 255, 0.2); /* Fundo branco com transparência */
+    padding: 8px; /* Espaço interno */
+    margin: 5px 0; /* Espaçamento entre os itens */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Área principal do conteúdo */
+.content {
+    width: 65%; /* Ocupa 65% da largura do container */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilização dos títulos dentro da área de conteúdo */
+.content h2 {
+    border-bottom: 2px solid var(--primary-color); /* Linha abaixo do título */
+    padding-bottom: 5px;
+    color: var(--primary-color); /* Cor azul escuro */
+}
+
+/* Blocos de experiência e educação */
+.job, .education {
+    background-color: var(--secondary-color); /* Fundo cinza claro */
+    padding: 10px; /* Espaço interno */
+    border-left: 5px solid var(--primary-color); /* Barra azul na lateral esquerda */
+    margin: 10px 0; /* Espaçamento entre os blocos */
+}
+
+/* Títulos dentro dos blocos de experiência e educação */
+.job h3, .education h3 {
+    margin: 5px 0;
+    color: var(--primary-color); /* Cor azul escuro */
+}
+  
